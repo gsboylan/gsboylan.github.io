@@ -13,10 +13,14 @@ description: >-
   Graham's infodump and project log
 url: https://gsboylan.github.io
 domain: gsboylan.github.io
+github_username: gsboylan
+
+google_analytics: G-M0V3758SD1
 
 # Build settings
 theme: jekyll-theme-slate
 remote_theme: pages-themes/slate@v0.2.0
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
