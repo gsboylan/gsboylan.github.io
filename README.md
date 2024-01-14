@@ -1,4 +1,4 @@
-# Graham's Brainspace
+# Welcome!
 
 Hi! If you're here, you're probably here because I sent you a link. If not, maybe someone else
 linked to me (in which case, I am flattered) or I managed to accidentally hit some *very* specific
@@ -18,7 +18,3 @@ All of the advice I offer is free of charge, licensed [Creative Commons Attribut
 International](https://creativecommons.org/licenses/by/4.0/). In short, you are free to use,
 distribute, or modify this content in any work you create, commercial or noncommercial, provided
 that you attribute any content you lift from me back to my site where appropriate.
-
-## Table of Contents
-
-- I'm going to put some pages here relatively soon.

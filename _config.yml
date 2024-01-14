@@ -6,19 +6,19 @@
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-title: gsboylan // Welcome
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.#
+
 email: gsboylan@gmail.com
-description: >- 
+description: >-
   Graham's infodump and project log
 url: https://gsboylan.github.io
 domain: gsboylan.github.io
-github_username: gsboylan
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing.
