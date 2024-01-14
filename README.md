@@ -1,10 +1,6 @@
----
-layout: default
-title: gsboylan // Welcome!
-description: Landing page
----
-
 # Welcome!
+
+This site is intended to be viewed using [Github Pages.](https://gsboylan.github.io)
 
 Hi! If you're here, you're probably here because I sent you a link. If not, maybe someone else
 linked to me (in which case, I am flattered) or I managed to accidentally hit some *very* specific

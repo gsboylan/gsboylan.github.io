@@ -23,9 +23,13 @@ google_analytics: G-M0V3758SD1
 theme: jekyll-theme-slate
 remote_theme: pages-themes/slate@v0.2.0
 
+markdown: kramdown
+paginate: 10
+paginate_path: "/posts/page:num/'"
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-sitemap
 
 # Exclude from processing.
