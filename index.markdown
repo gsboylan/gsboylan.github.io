@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Welcome!
+description: Landing page
 ---
 
 # Welcome!
@@ -22,3 +24,11 @@ All of the writing here is licensed [Creative Commons Attribution 4.0
 International](https://creativecommons.org/licenses/by/4.0/). In short, you are free to use,
 distribute, or modify this content in any work you create, commercial or noncommercial, provided
 that you attribute any content you lift from me back to my site where appropriate.
+
+# Recent Posts
+
+{% for post in site.posts limit: 5 %}
+{% include post_list_entry.html %}
+{% endfor %}
+
+[View all posts...](./posts)
