@@ -1,3 +1,9 @@
+---
+layout: default
+title: gsboylan // Welcome!
+description: Landing page
+---
+
 # Welcome!
 
 Hi! If you're here, you're probably here because I sent you a link. If not, maybe someone else
@@ -18,4 +24,3 @@ All of the advice I offer is free of charge, licensed [Creative Commons Attribut
 International](https://creativecommons.org/licenses/by/4.0/). In short, you are free to use,
 distribute, or modify this content in any work you create, commercial or noncommercial, provided
 that you attribute any content you lift from me back to my site where appropriate.
-

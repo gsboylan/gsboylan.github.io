@@ -8,12 +8,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.#
 
+title: Graham's Brain Zone
 email: gsboylan@gmail.com
 description: >-
-  Graham's infodump and project log
+  An info-dump and project log of the digital and the physical sort
 url: https://gsboylan.github.io
 domain: gsboylan.github.io
 github_username: gsboylan
+author: Graham Boylan
 
 google_analytics: G-M0V3758SD1
 
@@ -24,6 +26,7 @@ remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
