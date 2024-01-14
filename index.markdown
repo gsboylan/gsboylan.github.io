@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Welcome!
 
 Hi! If you're here, you're probably here because I sent you a link. If not, maybe someone else
@@ -14,8 +18,7 @@ things, and the tools I have found helpful along the way. I may or may not write
 certain projects. I will generally try to release any source material I create back to the public
 where it may be helpful.
 
-All of the advice I offer is free of charge, licensed [Creative Commons Attribution 4.0
+All of the writing here is licensed [Creative Commons Attribution 4.0
 International](https://creativecommons.org/licenses/by/4.0/). In short, you are free to use,
 distribute, or modify this content in any work you create, commercial or noncommercial, provided
 that you attribute any content you lift from me back to my site where appropriate.
-
