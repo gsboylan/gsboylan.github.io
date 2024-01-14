@@ -44,7 +44,13 @@
       <footer class="inner">
         <p class="copyright">
           This site is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
-          and published with <a href="https://pages.github.com">GitHub Pages.</a></p>
+          and published with <a href="https://pages.github.com">GitHub Pages.</a>
+          <br>
+          The source code for this site is authored <a href="{{ site.github.repository_url }}">here.</a>
+          {% if site.github.build.revision %}
+            <br>
+            You are currently viewing revision number{{ site.github.build.revision }}.
+          {% endif %}
       </footer>
     </div>
   </body>
