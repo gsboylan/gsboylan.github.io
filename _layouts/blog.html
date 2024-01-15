@@ -4,7 +4,17 @@ layout: default
 
 <header>
     <div class="title_set">
-        <h1>{{ page.title }}</h1>
+        {% if page.header_image %}
+            <div class="header_image_container">
+                <h1 class="header_title_overlay">{{ page.title }}</h1>
+                {% if page.header_image_credit %}
+                    <p class="header_image_credit_overlay">Image credit: {{ page.header_image_credit }}</p>
+                {% endif %}
+                <img class="header_img" src="{{ site.url }}/assets/images/{{ page.header_image }}" alt="{{ page.header_alt }}"/>
+            </div>
+        {% else %}
+            <h1 class="header_title_bare">{{ page.title }}</h1>
+        {% endif %}
         <div class="subtitle">{{ page.subtitle }}</div>
     </div>
     <div class="byline">
