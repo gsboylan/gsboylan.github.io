@@ -4,7 +4,7 @@
     <h2>{{post.title}}</h2>
 
     {% if post.subtitle %}
-        <p class="subtitle">{{ post.date | date: '%B %d, %Y' }} - {{ post.subtitle }}</p>
+        <p class="post_list_entry_subtitle">{{ post.date | date: '%B %d, %Y' }} - {{ post.subtitle }}</p>
     {% else %}
         {{ post.date | date: '%B %d, %Y' }}
     {% endif %}

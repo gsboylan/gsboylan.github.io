@@ -1,10 +1,9 @@
 ---
+layout: blog
 title: Some initial thoughts on site organization
 subtitle: No plan survives first contact with the enemy.
 categories: meta
 ---
-
-# The first is always the hardest
 
 It's always difficult to conceptualize a data structure when you don't have any data yet. My
 intention here is to have a straightforward layout that focuses on discoverability so that I can

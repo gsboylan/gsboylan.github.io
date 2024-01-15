@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<header>
+    <div class="title_set">
+        <h1>{{ page.title }}</h1>
+        <div class="subtitle">{{ page.subtitle }}</div>
+    </div>
+    <div class="byline">
+        Posted by {% if page.author %}{{ page.author }}{% elsif site.author %}{{ site.author }}{% endif %}
+            on {{ page.date | date: "%B %d, %Y" }}
+    </div>
+</header><hr style="height:8px;">
+
+{{ content }}
